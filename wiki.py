@@ -1,5 +1,7 @@
 import logging
+import os
 
+import app as app
 import wikipedia
 from aiogram import Bot, Dispatcher, executor, types
 wikipedia.set_lang('uz')
